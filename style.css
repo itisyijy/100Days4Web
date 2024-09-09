@@ -1,0 +1,33 @@
+/* type selector */
+h1 {
+  font-family: "Playwrite CU", system-ui;  /* main font, fallback fonts : 예비용 폰트 */
+  text-align: center;
+  color: #f37021;
+}
+
+p {
+  font-family: "Montserrat", system-ui;
+  text-align: center;
+  color: #747474;
+}
+a {
+  color: #81d8d0;
+  text-decoration: none;
+}
+
+/* psuedo selector, 가상 selector */
+a:hover {
+  /* <a> element를 가르킬 때마다 적용되는 스타일 */
+  text-decoration: underline;
+}
+
+/* ID selector for unique element */
+#todays-challenge {
+  color: #046a38;
+  font-weight: bold; /* font thickness */
+  font-size: 52px;
+}
+
+/* CSS size unit */
+/* ABSOLUTE | px        -> device-indepenedent pixel on the screen except resolution*/
+/* RELATIVE | rem / %   ->  */
