@@ -1,0 +1,23 @@
+/* CSS RULE : css_selector { CSS Property + Value} */
+
+body {
+  text-align: center;
+}
+/* for image file locate in center */
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; /* = half of 200px(width & height) */
+}
+
+/* ID selector for unique element */
+#todays-challenge {
+  color: #046a38;
+  font-weight: bold; /* font thickness */
+  font-size: 52px;
+}
+
+/* CSS size unit */
+/* ABSOLUTE | px        -> device-indepenedent pixel on the screen except resolution*/
+/* RELATIVE | rem / %   ->  */

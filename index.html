@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <!-- HTML version info -->
-<html>
+<html lang="en">
   <!-- HTML commnet style -->
   <head>
+    <meta charset="UTF-8" />
     <!-- metadata - invisible for user, but impact on browser-->
 
     <title>Daily WEB Challenge</title>
     <!-- shown to tab title and search engine result -->
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/style_all.css" />
+    <!-- shared CSS file should be 1ST! -->
+    <link rel="stylesheet" href="./style/style_index.css" />
     <!-- void element : no ending tag. attributes only! -->
     <!-- rel : define kind of relationship with the link -->
     <!-- non HTML files -> outsourcing! -->
@@ -25,10 +28,12 @@
       /* insert CSS code */
     </style>
     <!-- <style>  : invisible tag -->
-    <!-- CSS RULE : css_selector { CSS Property + Value} -->
   </head>
   <body>
-    <h1>itisyijy's Challenge for Wednesday, September 4th</h1>
+    <img src="./img/challenges-trophy.jpg" alt="trophy" />
+    <!-- alt : alternative text-->
+
+    <h1>itisyijy's Challenge for September 4th</h1>
     <!-- <h1> : heading 1 -->
 
     <p id="todays-challenge">
@@ -37,10 +42,7 @@
     </p>
     <!-- <p> : plain text -->
 
-    <p>
-      I'll achieve th is goal by diving into
-      <a href="https://www.google.com/">more learning rescources</a>.
-    </p>
+    <p>Explore the <a href="./full_week.html">full week</a>.</p>
     <!--
     break line      : <p>
     <a href="link"> : hyperlink
